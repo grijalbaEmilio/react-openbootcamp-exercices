@@ -1,4 +1,4 @@
-import { TaskClass } from "../../../models/task.class";
+import { TaskClass } from "../../models/task.class";
 import propTypes from 'prop-types'
 
 
@@ -14,7 +14,7 @@ const TaskComponent = ({task}) =>{
         <h4>
             Nivel: { task.level }
         </h4>
-        <h5>
+        <h5 className="btn btn-danger ">
             Esta tarea esta: { task.complete ? "complete": "incompleta"} 
         </h5>
     </div>

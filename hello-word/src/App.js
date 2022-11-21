@@ -1,17 +1,21 @@
 // import logo from "./logo.svg"
 import "./App.css";
 // import TaskListComponent from "./components/containers/task_list";
-import ComponentA from "./components/componentA";
+import { FunctionComponent } from "./components/exercices-456-sessions/functionComponnet";
+import ClasComponenet from "./components/exercices-456-sessions/classComponnet";
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <Greeting name={2}></Greeting> */}
-        <ComponentA/>
+        {/* <TaskListComponent/> */}
+        <FunctionComponent/>
+        {/* <ClasComponenet /> */}
       </header>
     </div>
-  );
+  )
 }
 
 export default App;
+  

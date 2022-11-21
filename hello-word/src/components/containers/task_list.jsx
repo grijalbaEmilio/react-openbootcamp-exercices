@@ -3,7 +3,7 @@ import propTypes from 'prop-types'
 
 import { TaskClass } from "../../models/task.class";
 import { LEVELS } from "../../models/levels.enum";
-import TaskComponent from "../pure/forms/task";
+import TaskComponent from "../pure/task";
 
 const TaskListComponent = ({task}) =>{
 
